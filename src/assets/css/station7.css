@@ -1,0 +1,42 @@
+body {
+  background-color: #c4c4c4;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  height: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* header main footer */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 960px;
+  min-height: 100vh;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 8px;
+}
+
+.card__img-top {
+  margin-top: 8px;
+}
+
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #fff;
+  height: 40px;
+}
