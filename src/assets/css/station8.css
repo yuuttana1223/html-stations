@@ -1,0 +1,46 @@
+body {
+  background-color: #c4c4c4;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  height: 40px;
+}
+
+.card-container {
+  max-width: 960px;
+  min-height: 100vh;
+  margin: 40px auto;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 8px;
+}
+
+.card__img-top {
+  margin-top: 8px;
+}
+
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #fff;
+  height: 40px;
+}
